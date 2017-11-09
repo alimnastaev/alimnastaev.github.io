@@ -1,4 +1,9 @@
 @media screen and (min-width: 180px) {
+    
+#gallery li {
+    width: 95%;
+    text-align: center;
+}
   
 header {
     border-bottom: 1px solid black;
@@ -17,9 +22,10 @@ nav, nav li {
     background: none;
     font-size: 1em;
     margin: 0;
-  }
-
+  }    
+  
 }
+
 @media screen and (min-width: 480px) {
   
   header {
@@ -48,9 +54,9 @@ nav, nav li {
   ***********************************/
   
    #gallery li {
-     width: 28.3333%;
+     width: 45%;
     }
-    #gallery li:nth-child(3n+1) {
+    #gallery li:nth-child(2n+1) {
         clear: right;
     }
   
@@ -67,6 +73,13 @@ nav, nav li {
 }
 
 @media screen and (min-width: 660px) {
+    
+#gallery li {
+     width: 28.3333%;
+    }
+#gallery li:nth-child(3n+1) {
+        clear: right;
+    }
 
   /**********************************
   HEADER
@@ -108,9 +121,12 @@ nav, nav li {
   
 }
 
-@media screen and (min-width: 1250px) {
-    .wrap {
-        min-height: calc(100vh - 89px);
-    }
+
+@media screen and (min-width: 1024px) {
     
-}
+#gallery li {
+     width: 20%;
+    }
+#gallery li:nth-child(3n+1) {
+        clear: right;
+    }
