@@ -1,0 +1,293 @@
+/**********************************
+GENERAL
+***********************************/
+body {
+    font: normal 13px/18px sans-serif;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/** Removes link styling. **/
+a {
+    text-decoration: none; 
+}
+
+.wrapper {
+    display: block;
+    margin: auto;
+    width: 73%;
+}
+
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    clear: both;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+p {
+    color: #999;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  margin: 15px;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.75em;
+  margin: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+nav ul {
+  font-family: 'Raleway', sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+nav li {
+  display: inline-block;
+    font-weight: bold;
+}
+
+nav a {
+  padding: 5px 10px;
+}
+
+
+/******************************
+CAROUSEL
+******************************/
+#carousel {
+	width: 100%;
+	position: relative;
+	padding-top: 38%; /* 1500x570 */
+	overflow: hidden;
+}
+
+#carousel img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+#footer {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 2rem;
+		text-align: center;
+	}
+#footer .copyright {
+			letter-spacing: 0.1rem;
+			font-size: 0.6rem;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
+
+
+/**********************************
+PAGE: MEDIA
+***********************************/
+
+
+#gallery, 
+#gallery figure, 
+#gallery figcaption {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: white;
+    color: #bdc3c7;
+}
+
+/** Create a thumbnail for images of different sizes. And round the corners. **/
+#gallery img {
+    border-radius: 3px;
+    height:300px;
+    width:300px;
+    object-fit: cover;
+}
+
+
+#gallery figcaption {
+    margin: 0;
+    padding 5%;
+    font-size: 0.80em;
+    color: #999;
+}
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 250px;
+  margin: 35px auto;
+}
+
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*
+.input:focus {
+    color: black;
+}
+*/
+
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+      color: #999;
+      font-size: 12px;
+      height: 12px;
+      padding: 15px;
+      width: 100%;
+      background-color: #e8eeef;
+      margin-bottom: 30px;
+      border: 1px solid #999;
+      resize: none;
+}
+
+input,
+button {
+    color: #dea227;
+}
+
+label {
+    color: #999;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+ h1, h2, h3 {
+     color: #999;
+ }
+
+/*Header section*/
+ 
+ header {
+     border-color: black;
+ }
+
+
+/*links*/
+a {
+    color: #dea227;
+}
+
+/*nav styles*/
+nav a, nav a:visited {
+     color: #999;
+ }
+
+selected, nav a.selected, nav a:hover {
+     color: #dea227;
+     background-color: #f6f6f6;
+ }
+
+/*
+h1:hover, h2:hover {
+    color: #dea227;
+    background-color: #f6f6f6;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
