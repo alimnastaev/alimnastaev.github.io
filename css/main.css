@@ -1,6 +1,7 @@
 /**********************************
 GENERAL
 ***********************************/
+
 body {
     font: normal 13px/18px sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -23,7 +24,7 @@ a {
 
 #wrapper {
     max-width: 940px;
-    margin: 0 auto;
+    margin: 190px 15px;
     padding: 0 5%;
     clear: both;
 }
@@ -49,12 +50,26 @@ p {
 HEADING
 ***********************************/
 
+/*
 header {
   float: left;
   margin: 0 0 10px 0;
   padding: 5px 0 0 0;
   width: 100%;
 }
+*/
+
+header {
+   position: fixed;
+    float: left;
+   top: 0;
+   left: 0;
+   z-index: 9999;
+   width: 100%;
+   height: 90px;
+   background-color: white; 
+}
+
 
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -76,7 +91,6 @@ h2 {
 .social {
     text-align: center;
 }
-
 
 
 /**********************************
@@ -243,42 +257,55 @@ label {
     color: #999;
 }
 
+
+
 /**********************************
 COLORS
 ***********************************/
 
+/*
  h1, h2, h3 {
      color: #999;
  }
+*/
 
 /*Header section*/
  
+/*
  header {
-     border-color: black;
+     border-color: red bold;
  }
+*/
 
 
 /*links*/
 a {
     color: #dea227;
 }
+a, h3 {
+    color: #999;
+}
 
-/*nav styles*/
-nav a, nav a:visited {
-     color: #999;
+
+.current, selected, nav a.selected, nav a:hover {
+    color: #dea227;
+    background-color: #f1f1f1;
+    border-radius: 4px;
  }
 
-selected, nav a.selected, nav a:hover {
-     color: #dea227;
-     background-color: #f6f6f6;
- }
+.download {
+    color: #dea227;
+}
 
-/*
-h1:hover, h2:hover {
+
+h2:hover li {
     color: #dea227;
     background-color: #f6f6f6;
 }
-*/
+
+
+
+
 
 
 
