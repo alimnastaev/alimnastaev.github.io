@@ -1,18 +1,18 @@
 @media screen and (min-width: 180px) {
     
-header {
-    border-bottom: 1px solid black;
-/*    margin-bottom: 60px;*/
-    height: 170px; !important;  
-  }
-    
 #gallery li {
     width: 95%;
     text-align: center;
 }
+  
+header {
+    border-bottom: 1px solid black;
+    margin: 0 0 20px 0;
+  }
     
 h1 {
- font-size: 40px;
+ font-size: 30px;
+    margin: 5px 0 0 40px;
 }
 
 h2 {
@@ -23,7 +23,7 @@ nav, nav li {
     background: none;
     font-size: 1em;
     margin: 0;
-  } 
+  }    
   
 }
 
@@ -31,8 +31,7 @@ nav, nav li {
   
   header {
     border-bottom: 1px solid black;
-/*    margin-bottom: 60px;*/
-    height: 170px; !important;  
+    margin-bottom: 60px;
   }
     
   /**********************************
@@ -75,19 +74,6 @@ nav, nav li {
 }
 
 @media screen and (min-width: 660px) {
-    
-    header {
-    border-bottom: 1px solid black;
-/*    margin-bottom: 60px;*/
-    height: 90px; !important;  
-  }
-    
-    #wrapper {
-    max-width: 940px;
-    margin: 110px auto; !important;
-    padding: 0 5%;
-    clear: both;
-}
     
 #gallery li {
      width: 28.3333%;
