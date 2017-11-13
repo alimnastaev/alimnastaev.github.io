@@ -1,4 +1,4 @@
-/* image carousel */
+/* TITLE PAGE - carousel */
 $('#carousel img:gt(0)').hide();
 
 setInterval(function(){
