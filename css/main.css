@@ -48,6 +48,11 @@ p {
     color: #999;
 }
 
+.menu {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 
 
 /**********************************
@@ -59,14 +64,11 @@ header {
   z-index: 9999;
   /*float: left;*/
   margin: 0 0 10px 0;
-  padding: 5px 0 0 0;
   width: 100%;
   background-color: white;
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
-  margin: 15px;
   font-size: 1.75em;
   font-weight: bold;
   line-height: 0.8em;
@@ -81,40 +83,16 @@ h2 {
   text-align: center;
 }
 
-.social {
-    text-align: center;
-}
-
 
 
 /**********************************
 NAVIGATION
 ***********************************/
 
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 10px 0 0;
-}
 
-nav ul {
-  font-family: 'Raleway', sans-serif;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 1.2em;
-  font-weight: normal;
-  line-height: 0.8em;
-}
 
-nav li {
-  display: inline-block;
-    font-weight: bold;
-}
 
-nav a {
-  padding: 5px 10px;
-}
+
 
 
 /******************************
@@ -215,10 +193,12 @@ PAGE: CONTACT
   box-sizing: border-box;
 }
 
+/*
 label {
   display: block;
   margin-bottom: 10px;
 }
+*/
 
 /*
 .input:focus {
@@ -247,12 +227,8 @@ button {
     color: #dea227;
 }
 
-label {
-    color: #999;
-}
-
 /**********************************
-DATES
+PAGE: DATES
 ***********************************/
 *, *:before, *:after {
 -moz-box-sizing: border-box;
@@ -355,15 +331,12 @@ h3 {padding: 0; margin: 0;}
 COLORS
 ***********************************/
 
-a {
-    color: #dea227;
-}
 a, h2, h3 {
     color: #999;
 }
 
 
-.fa fa-facebook-official, .selected, nav a.selected, nav a:hover {
+.selected, nav a:hover {
     color: #dea227;
     background-color: #f1f1f1;
     border-radius: 4px;
@@ -371,10 +344,4 @@ a, h2, h3 {
 
 .download {
     color: #dea227;
-}
-
-
-h2:hover li {
-    color: #dea227;
-    background-color: #f6f6f6;
 }

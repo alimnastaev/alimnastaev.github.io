@@ -19,9 +19,6 @@
     line-height: 62px;
 }
 
-
-/* AFFECTS A CONTACT FORM !!!!!!!!!!!!!!!!!!!!!!!!*/
-
 label {
     margin: 0 40px 0 0;
     font-size: 26px;
@@ -29,6 +26,7 @@ label {
     display: none;
     width: 6px;
     float: right;
+    color: #999;
 }
 
 #toggle {
@@ -56,5 +54,3 @@ label {
         display: block;
         background-color: white;
     }
-
-}
