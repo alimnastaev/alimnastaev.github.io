@@ -71,12 +71,12 @@ h1 {
 }
 
 /******************************
-CAROUSEL (a TITLE PAGE)
+CAROUSEL (TITLE PAGE)
 ******************************/
 #carousel {
 	width: 100%;
 	position: relative;
-	padding-top: 38%; /* 1500x570 */
+	padding-top: 38%;
 	overflow: hidden;
 }
 
@@ -87,9 +87,6 @@ CAROUSEL (a TITLE PAGE)
 	top: 0;
 	left: 0;
 }
-
-
-
 
 
 /**********************************
@@ -123,7 +120,6 @@ PAGE: MEDIA
     background-color: white;
 }
 
-/** Create a thumbnail for images of different sizes. And round the corners. **/
 #gallery img {
     border-radius: 3px;
     height:300px;
@@ -143,11 +139,13 @@ PAGE: MEDIA
 /**********************************
 PAGE: DATES
 ***********************************/
+/*
 *, *:before, *:after {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 }
+*/
 
 ul.main { 
   list-style: none;
