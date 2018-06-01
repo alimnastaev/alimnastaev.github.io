@@ -30,7 +30,7 @@ To view this project simple run index.html
 
  
 
-My project on GitHub: http://alimnastaev.github.io/CLfinalproject/home.html.
+My project on GitHub: https://github.com/alimnastaev/alimnastaev.github.io
 
 A temporary URL Link to the project: https://alimnastaev.github.io
 
