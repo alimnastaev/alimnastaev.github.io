@@ -34,7 +34,7 @@ My project on GitHub: http://alimnastaev.github.io/CLfinalproject/home.html.
 
 A temporary URL Link to the project: https://alimnastaev.github.io
 
-Permanent domain for the website is going to be: www.alimnastaevmusic.com
+Permanent domain for the website is going to be: www.alimnastaev.com
 
  
 
